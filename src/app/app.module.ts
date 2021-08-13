@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { ReactiveFormsModule} from '@angular/forms'
 import { MatAutocompleteModule } from '@angular/material/autocomplete'
 import { MatInputModule } from '@angular/material/input'
+import { MatChipsModule } from '@angular/material/chips'
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -19,6 +20,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     BrowserAnimationsModule,
     MatAutocompleteModule,
     MatInputModule,
+    MatChipsModule,
     ReactiveFormsModule
   ],
   providers: [],
