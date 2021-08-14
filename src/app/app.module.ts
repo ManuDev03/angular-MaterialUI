@@ -6,6 +6,7 @@ import { MatInputModule } from '@angular/material/input'
 import { MatChipsModule } from '@angular/material/chips'
 import { MatDialogModule} from '@angular/material/dialog'
 import { MatButtonModule} from '@angular/material/button'
+import { MatTabsModule} from '@angular/material/tabs'
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -28,6 +29,7 @@ import { DialogContent } from './dialog-component/dialog-component.component';
     MatChipsModule,
     MatDialogModule,
     MatButtonModule,
+    MatTabsModule,
     ReactiveFormsModule
   ],
   providers: [],
